@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <main class="estrutura-principal">
+
+        <!-- Cabeçalho da aplicação -->
+        <header class="cabecalho">
+            <h1 class="titulo-cabecalho">Board de Tarefas</h1>
+        </header>
+
+        <!-- Formulário de adição de tarefa -->
+        <section id="secao-formulario">
+            <form action="#" id="formulario-tarefa">
+                <input type="text" id="campo-nome-tarefa" placeholder="Nome da tarefa" aria-label="Nome da tarefa" required>
+                <input type="text" id="campo-etiqueta" placeholder="Etiqueta" aria-label="Etiqueta" required>
+                <button type="submit" id="botao-adicionar-tarefa">+</button>
+            </form>
+        </section>
+
+        <!-- Área de exibição das tarefas -->
+        <section id="secao-tarefas">
+            <ul id="lista-tarefas"></ul>
+        </section>
+
+        <!-- Rodapé com contador de tarefas concluídas -->
+        <footer id="rodape">
+            <div id="linha-divisoria"></div>
+        </footer>
+    </main>
+</body>
+</html>
